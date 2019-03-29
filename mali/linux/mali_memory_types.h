@@ -14,7 +14,7 @@
 #include <linux/mm.h>
 
 #if defined(CONFIG_MALI400_UMP)
-#include <ump/ump_kernel_interface.h>
+#include "ump_kernel_interface.h"
 #endif
 
 typedef u32 mali_address_t;
